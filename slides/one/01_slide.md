@@ -1,59 +1,64 @@
 !SLIDE subsection
 
-# Phono #
+# &lt;Who>
 
-!SLIDE
-
-# Anyone seen John? #
-<!-- Hopefully put jquery plugin here -->
-
-!SLIDE bullets incremental transition=fade
+!SLIDE incremental transition=shuffle
 
 # Voxeo Labs #
 
-!SLIDE bullets incremental transition=fade
+!SLIDE incremental transition=shuffle
 
-# WTF (Who the F***?) #
+# Ok, snazzy name, what do you guys do? #
 
-!SLIDE bullets incremental transition=fade
-  
-# Voxeo Corperation #
+!SLIDE incremental transition=shuffle
+
+# Ok, snazzy name, what do you guys do? #
+
+!SLIDE incremental transition=shuffle
+             
+# R&D Division of Voxeo Corporation #
+
+!SLIDE incremental transition=shuffle
+
+# Oh? Voxeo?
+!SLIDE bullets center incremental transition=shuffle
 
   * Founded 1999 Orlando, FL
   * Largest hosted IVR provider ( 5 data centers on three continents )
-  * Bi-winning
-
-!SLIDE bullets incremental transition=fade
-
-# So who the hell is Voxeo Labs? #
-
-!SLIDE bullets incremental transition=fade
+  * 180 Employees  
+  
+!SLIDE bullets center incremental transition=shuffle
+  - Orlando  
+  - Cologne, Germany
+  - Beijing, China
+  - San Francisco (Coming soon!)
 
 # Voxeo's R&D department #
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental transition=shuffle
 
 # What does that mean?
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental transition=shuffle
 
 # We get paid to play with cool shit 
 
 
-!SLIDE center
+!SLIDE bullets incremental transition=shuffle
 
-# Dave Hoff #
+# Dave Hoff 
+<img src="hoff.png" id="opening_logo">
 <!-- Funny Picture -->
   
 !SLIDE center
 
 # John Dyer #
-
+<img src="john.png" id="opening_logo">
 <!--!SLIDE center
 # Justin Dupree #
 Senior Technical Writer, Voxeo Labs-->
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets center incremental transition=shuffle
 
 # So what do you got for us? 
 
@@ -65,46 +70,35 @@ Senior Technical Writer, Voxeo Labs-->
 
 # Turns your browser into a phone with Javascipt
 
-!SLIDE  
-<!-- ![Picture3](Picture3.png) -->
-
-Picture3
-# 
-
-
-
-
-
-
-
-
-
-
-# Old way #
+!SLIDE
+# Old way
+<img src="Picture3.png" id="Picture3">
 <!-- Image of "Lets Chat" -->
 * 
-!SLIDE
-![octocat](octocat.png)
+!SLIDE bullets incremental transition=shuffle
+
+<img src="phono_callme.png" id="phono_callme">
+
 
 # New Hotness #
 <!-- Call your your browser-->
-#
-!SLIDE
-
-# Code Slide #
-  <script type="text/javascript" src="http://s.phono.com/releases/0.2/jquery.phono.js"></script>    
+!SLIDE bullets incremental transition=shuffle
+# Show m3 your'z c0de
 	@@@ javascript
 	$("body").append(
       $("<div/>")
-          .css({"width":"220px"})
-          .callme({
-              apiKey: "C17D167F-09C6-4E4C-A3DD-2025D48BA243",
-              numberToDial: "8007773456",
-              buttonTextReady: "1-800-777-FILM",
-              slideOpen:true
-          })
-  )
-  
+        .css({"width":"220px"})
+        .callme({
+          apiKey: "C17D167F-09C6-4E4C",
+          numberToDial: "8007773456",
+          slideOpen:true
+        })
+     );
+
+!SLIDE incremental transition=shuffle
+
+# Yep, that easy!
+<img src="buddy_christ.jpg" id="Buddy Jesus">
 
 !SLIDE execute
 
